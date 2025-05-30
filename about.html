@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>
+        Annastasya Portfolio
+    </title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com">
+    </script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&amp;display=swap" rel="stylesheet" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #ffffff;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #2b3e34;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+
+        .navbar a:hover {
+            background-color: #faf8f8;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0
+            }
+
+            to {
+                width: 100%
+            }
+        }
+
+        @keyframes blink {
+            50% {
+                border-color: transparent
+            }
+        }
+
+        .typing-text {
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 2px solid #2b3e34;
+            width: 0;
+            animation:
+                typing 3s steps(30, end) forwards,
+                blink 1s step-end infinite;
+        }
+    </style>
+</head>
+
+<body class="bg-white">
+    <div class="navbar flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
+        <div class="flex items-center space-x-2">
+            <img alt="Star shaped logo" class="w-6 h-6" src="assets/logoo.png" />
+            <span class="font-semibold text-[#516345] text-sm md:text-base">
+                ANNASTASYA
+            </span>
+        </div>
+        <nav class="flex justify-end space-x-4 text-sm text-[#2b3e34]">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </div>
+</body>
+
+
+
+<main class="max-w-7xl mx-auto px-6 py-12 md:py-20 md:flex md:items-center md:justify-between md:gap-20">
+    <section class="md:flex-1 max-w-xl">
+        <p class="text-xs text-[#516345] uppercase tracking-widest mb-2">
+            About Me
+        </p>
+
+        <h1 class="font-extrabold text-3xl sm:text-2xl leading-tight mb-2">
+            Hi! I am
+            <br />
+            <h1 class="font-extrabold text-[#2b3e34] text-2xl md:text-3xl leading-tight mb-1 typing-text">
+                ANNASTASYA
+            </h1>
+            </div>
+        </h1>
+        <p class="text-xs text-gray-600 mb-4">
+            Welcome to my portfolio! I am Annastasya Ramadhani, a student of SMKN 1 Tengaran who has a
+            passion in
+            web development. As a Web Engineer, I have the ability to design, develop, and maintain dynamic
+            and
+            responsive websites.
+        </p>
+        <p class="text-xs text-gray-600 mb-6">
+            I hope this portfolio can give you an idea of my skills and expertise as a Web Engineer. Thank
+            you for
+            visiting my portfolio!
+        </p>
+        <p class="text-xs text-gray-500">
+            annastasya.ramadhani408@gmail.com
+        </p>
+    </section>
+
+    <style>
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fadeInUp {
+            animation: fadeInUp 1s ease-out forwards;
+        }
+
+        .shadow-green {
+            box-shadow: 0 2px 5px #2b3e34;
+        }
+    </style>
+
+    <section class="md:flex-3 flex justify-center">
+        <div class="relative w-[300px] h-[300px] group">
+            <svg viewBox="0 0 200 200"
+                class="absolute inset-0 w-full h-full z-0 transition-all duration-500 ease-in-out group-hover:scale-105 group-hover:blur-sm group-hover:drop-shadow-xl">
+                <path fill="#516345"
+                    d="M49.3,-58.2C63.4,-47.5,74.3,-31.5,75.9,-15.5C77.4,0.5,69.6,16.4,60.4,30.5C51.3,44.7,40.8,56.9,27.2,62.8C13.7,68.6,-3.1,68.1,-19.1,63.2C-35,58.3,-50.1,49,-61.3,35.6C-72.6,22.3,-79.9,4.9,-77.4,-11.8C-75,-28.5,-62.8,-44.5,-47.7,-55.2C-32.6,-66,-16.3,-71.6,0.8,-72.6C18,-73.7,36,-70.3,49.3,-58.2Z"
+                    transform="translate(100 100)" />
+            </svg>
+            <img src="assets/sayaa.png" alt="Portrait of Annastasya Ramadhani"
+                class="absolute inset-0 w-full h-full object-cover rounded-[50%] z-10 transition-transform duration-500 ease-in-out group-hover:scale-110" />
+        </div>
+    </section>
+
+
+    <div class="space-y-3">
+        <div class="flex items-center space-x-2">
+            <span class="font-semibold w-24 text-xs md:text-sm">
+                Age:
+            </span>
+            <div class="bg-[#bfcfbb] rounded-md flex-1 py-2 px-3 text-xs md:text-sm">
+                15
+            </div>
+        </div>
+        <div class="flex items-center space-x-2">
+            <span class="font-semibold w-24 text-xs md:text-sm">
+                Residence:
+            </span>
+            <div class="bg-[#bfcfbb] rounded-md flex-1 py-2 px-3 text-xs md:text-sm">
+                Indonesian
+            </div>
+        </div>
+        <div class="flex items-center space-x-2">
+            <span class="font-semibold w-24 text-xs md:text-sm">
+                Address:
+            </span>
+            <div class="bg-[#bfcfbb] rounded-md flex-1 py-2 px-3 text-xs md:text-sm">
+                Semarang, Central Java
+            </div>
+        </div>
+        <div class="flex items-center space-x-2">
+            <span class="font-semibold w-24 text-xs md:text-sm">
+                Operational:
+            </span>
+            <div class="bg-[#bfcfbb] rounded-md flex-1 py-2 px-3 text-xs md:text-sm">
+                15.00 - 00.00 WIB
+            </div>
+        </div>
+        <div class="flex items-center space-x-2">
+            <span class="font-semibold w-24 text-xs md:text-sm">
+                Phone:
+            </span>
+            <div class="bg-[#bfcfbb] rounded-md flex-1 py-2 px-3 text-xs md:text-sm">
+                +62 819-1506-0045
+            </div>
+        </div>
+        <div class="flex items-center space-x-2">
+            <span class="font-semibold w-24 text-xs md:text-sm">
+                Freelance:
+            </span>
+            <div class="bg-[#bfcfbb] rounded-md flex-1 py-2 px-3 text-xs md:text-sm">
+                Available
+            </div>
+        </div>
+</main>
+
+
+
+<div class="max-w-7xl mx-auto px-6 pb-12 md:pb-20 md:flex md:space-x-10">
+    <section class="md:w-1/2">
+        <h2 class="font-extrabold text-2xl sm:text-3xl mb-6">Technical Skills.</h2>
+        <p class="text-xs text-gray-600 mb-6 max-w-3xl">
+            With a strong background in web development, I have expertise in using the following technologies.
+            I continuously strive to improve my skills by using newer technologies to create better and more
+            effective web solutions.
+        </p>
+
+        <div class="space-y-5 animate-fadeIn">
+            <div>
+                <div class="flex justify-between mb-3">
+                    <span class="text-sm font-bold uppercase text-gray-900">JavaScript</span>
+                    <span class="text-sm font-bold text-gray-900">98%</span>
+                </div>
+                <div class="h-3 bg-[#516345] rounded-full progress-bar shadow-md transition-all"
+                    style="--target-width: 98%;"></div>
+                <br>
+
+                <div>
+                    <div class="flex justify-between mb-3">
+                        <span class="text-sm font-bold uppercase text-gray-900">Kotlin</span>
+                        <span class="text-sm font-bold text-gray-900">87%</span>
+                    </div>
+                    <div class="h-3 bg-[#516345] rounded-full progress-bar shadow-md transition-all"
+                        style="--target-width: 87%;"></div>
+                </div>
+                <br>
+
+                <div>
+                    <div class="flex justify-between mb-3">
+                        <span class="text-sm font-bold uppercase text-gray-900">C++</span>
+                        <span class="text-sm font-bold text-gray-900">80%</span>
+                    </div>
+                    <div class="h-3 bg-[#516345] rounded-full progress-bar shadow-md transition-all"
+                        style="--target-width: 80%;"></div>
+                </div>
+                <br>
+
+                <div>
+                    <div class="flex justify-between mb-3">
+                        <span class="text-sm font-bold uppercase text-gray-900">Java</span>
+                        <span class="text-sm font-bold text-gray-900">90%</span>
+                    </div>
+                    <div class="h-3 bg-[#516345] rounded-full progress-bar shadow-md transition-all"
+                        style="--target-width: 90%;"></div>
+                </div>
+                <br>
+
+                <div>
+                    <div class="flex justify-between mb-3">
+                        <span class="text-sm font-bold uppercase text-gray-900">Python</span>
+                        <span class="text-sm font-bold text-gray-900">75%</span>
+                    </div>
+                    <div class="h-3 bg-[#516345] rounded-full progress-bar shadow-md transition-all"
+                        style="--target-width: 75%;"></div>
+                </div>
+
+            </div>
+    </section>
+
+    <style>
+        svg circle.progress-ring {
+            stroke-dasharray: 100 100;
+            stroke-dashoffset: 100;
+            animation: progressFill 1.5s ease-out forwards;
+        }
+
+        @keyframes progressFill {
+            to {
+                stroke-dashoffset: var(--offset);
+            }
+        }
+
+        .delay-0 {
+            animation-delay: 0s;
+        }
+
+        .delay-1 {
+            animation-delay: 0.3s;
+        }
+
+        .delay-2 {
+            animation-delay: 0.6s;
+        }
+
+        .delay-3 {
+            animation-delay: 0.9s;
+        }
+
+        /* Ukuran angka persen */
+        .circle-label {
+            font-size: 0.65rem;
+            /* lebih kecil */
+            font-weight: bold;
+            fill: #516345;
+        }
+    </style>
+
+    <section class="md:w-1/2 mt-10 md:mt-0">
+        <h2 class="font-extrabold text-2xl sm:text-3xl mb-6">Profesional Skill.</h2>
+        <p class="text-xs text-gray-600 mb-6 max-w-3xl">
+            I have strong ability to work collaboratively in teams, convey ideas clearly and persuasively, and
+            manage projects with a creative and structured approach. This skill has helped me solve various
+            challenges with optimal results.
+        </p>
+
+        <div class="grid grid-cols-2 gap-x-24 gap-y-20 max-w-4xl w-full">
+
+            <div class="space-y-5 animate-fadeIn flex flex-col items-center">
+                <svg class="w-28 h-28" viewBox="0 0 36 36">
+                    <circle class="text-gray-300" stroke="currentColor" stroke-width="3" cx="18" cy="18" r="15.9155"
+                        fill="none" />
+                    <circle class="text-[#516345] progress-ring delay-0" stroke="currentColor" stroke-width="3" cx="18"
+                        cy="18" r="15.9155" fill="none" stroke-linecap="round" style="--offset: 10;" />
+                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="circle-label">90%</text>
+                </svg>
+                <p class="text-xs font-bold mt-3">Team Work</p>
+            </div>
+
+
+            <div class="space-y-5 animate-fadeIn flex flex-col items-center">
+                <svg class="w-28 h-28" viewBox="0 0 36 36">
+                    <circle class="text-gray-300" stroke="currentColor" stroke-width="3" cx="18" cy="18" r="15.9155"
+                        fill="none" />
+                    <circle class="text-[#516345] progress-ring delay-0" stroke="currentColor" stroke-width="3" cx="18"
+                        cy="18" r="15.9155" fill="none" stroke-linecap="round" style="--offset: 20;" />
+                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="circle-label">80%</text>
+                </svg>
+                <p class="text-xs font-bold mt-3">Creativity</p>
+            </div>
+
+
+            <div class="space-y-5 animate-fadeIn flex flex-col items-center">
+                <svg class="w-28 h-28" viewBox="0 0 36 36">
+                    <circle class="text-gray-300" stroke="currentColor" stroke-width="3" cx="18" cy="18" r="15.9155"
+                        fill="none" />
+                    <circle class="text-[#516345] progress-ring delay-0" stroke="currentColor" stroke-width="3" cx="18"
+                        cy="18" r="15.9155" fill="none" stroke-linecap="round" style="--offset: 25;" />
+                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="circle-label">70%</text>
+                </svg>
+                <p class="text-xs font-bold mt-3">Communication</p>
+            </div>
+
+
+            <div class="space-y-5 animate-fadeIn flex flex-col items-center">
+                <svg class="w-28 h-28" viewBox="0 0 36 36">
+                    <circle class="text-gray-300" stroke="currentColor" stroke-width="3" cx="18" cy="18" r="15.9155"
+                        fill="none" />
+                    <circle class="text-[#516345] progress-ring delay-0" stroke="currentColor" stroke-width="3" cx="18"
+                        cy="18" r="15.9155" fill="none" stroke-linecap="round" style="--offset: 15;" />
+                    <text x="50%" y="50%" text-anchor="middle" dy=".3em" class="circle-label">85%</text>
+                </svg>
+                <p class="text-xs font-bold mt-3">Project Management</p>
+            </div>
+        </div>
+
+
+    </section>
+</div>
+
+
+
+<style>
+    @keyframes fillProgress {
+        from {
+            width: 0%;
+        }
+
+        to {
+            width: var(--target-width);
+        }
+    }
+
+    .progress-bar {
+        animation: fillProgress 1.2s ease-out forwards;
+    }
+</style>
+
+
+<section class="max-w-7xl mx-auto px-6 pb-12 md:pb-20 text-ce">
+    <h2 class="font-extrabold text-2xl sm:text-3xl mb-6">
+        My Pojects.
+    </h2>
+    <p class="text-xs text-gray-600 mb-6 max-w-3xl">
+        See My Projects in the last 6 months.
+    </p>
+
+    <style>
+        .project-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+            max-width: 960px;
+        }
+
+        .project-image {
+            border-radius: 16px;
+            transition: transform 0.4s ease-in-out;
+            cursor: pointer;
+            object-fit: cover;
+        }
+
+        .project-image:hover {
+            transform: scale(1.05);
+        }
+    </style>
+
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <a href="Proyek Kolaborasi Antar Mapel/">
+            <img alt="project 1" class="project-image rounded-xl w-full object-cover aspect-[3/6]"
+                src="assets/candi.jpg" width="160" />
+        </a>
+        <div class="flex flex-col gap-4">
+            <a href="https://alnaa23.github.io/flowers/">
+                <img alt="project 2" class="project-image rounded-xl w-full object-cover aspect-[7/5]" height="120"
+                    src="assets/flowers.jpg" width="160" />
+            </a>
+
+            <a href=" https://alnaa23.github.io/travell/">
+                <img alt="project 3" class="project-image rounded-xl w-full object-cover aspect-[4/5]" height="140"
+                    src="assets/travel.jpg" width="160" />
+            </a>
+        </div>
+        <a href="https://alnaa23.github.io/tailwind-altina/">
+            <img alt="project 4" class="project-image rounded-xl w-full object-cover aspect-[3/6]" height="280"
+                src="assets/daun .jpg" width="160" />
+        </a>
+
+        <div class="flex flex-col gap-4">
+            <a href="https://alnaa23.github.io/bunga-shop/">
+                <img alt="project 5" class="project-image rounded-xl w-full object-cover aspect-[7/5]"
+                    src="assets/shopping.jpg" width="160" />
+            </a>
+            <a href="https:sishanen44.github.io/altina/">
+                <img alt="project 6" class="project-image rounded-xl w-full object-cover aspect-[4/5]"
+                    src="assets/rumah sakit.jpg" width="160" />
+            </a>
+        </div>
+    </div>
+</section>
+
+
+<section class="max-w-7xl mx-auto px-6 pb-12 md:pb-20">
+    <h2 class="font-extrabold text-2xl sm:text-3xl mb-6">
+        Service.
+    </h2>
+    <p class="text-xs text-gray-600 mb-6 max-w-3xl">
+        I build responsive, fast, and user-friendly websites using the latest technologies. Design attractive
+        interfaces and intuitive user experiences for your digital products, and Create attractive visual
+        designs
+        that are in line with your brand identity.
+    </p>
+
+    <style>
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .animate-fadeIn {
+            animation: fadeIn 0.8s ease-out both;
+        }
+    </style>
+
+    <section class="max-w-7xl mx-auto px-6 pb-12 md:pb-20 animate-fadeIn">
+        <div class="relative w-full max-w-full animate-fadeIn">
+            <img alt="Pink marble textured horizontal background banner" class="w-full h-40 object-cover rounded-md"
+                height="160" src="assets/green.bg.jpg" width="1200" />
+            <div class="absolute inset-0 flex justify-around items-center px-6" style="top: 0; bottom: 0;">
+                <div
+                    class="bg-white bg-opacity-30 backdrop-blur-sm rounded-xl w-20 h-20 flex flex-col items-center justify-center cursor-default transition-transform duration-300 transform hover:scale-105">
+                    <i class="fas fa-layer-group text-white text-3xl mb-2"></i>
+                    <span class="text-center text-white text-xs font-semibold tracking-widest select-none">
+                        WEB DESIGN
+                    </span>
+                </div>
+                <div
+                    class="bg-white bg-opacity-30 backdrop-blur-sm rounded-xl w-20 h-20 flex flex-col items-center justify-center cursor-default transition-transform duration-300 transform hover:scale-105">
+                    <i class="fas fa-camera text-white text-3xl mb-2"></i>
+                    <span class="text-center text-white text-xs font-semibold tracking-widest select-none">
+                        DATABASE
+                    </span>
+                </div>
+                <div
+                    class="bg-white bg-opacity-30 backdrop-blur-sm rounded-xl w-20 h-20 flex flex-col items-center justify-center cursor-default transition-transform duration-300 transform hover:scale-105">
+                    <i class="fas fa-file-alt text-white text-3xl mb-2"></i>
+                    <span class="text-center text-white text-xs font-semibold tracking-widest select-none">
+                        UI/UX DESIGNER
+                    </span>
+                </div>
+                <div
+                    class="bg-white bg-opacity-30 backdrop-blur-sm rounded-xl w-20 h-20 flex flex-col items-center justify-center cursor-default transition-transform duration-300 transform hover:scale-105">
+                    <i class="fas fa-globe text-white text-3xl mb-2"></i>
+                    <span class="text-center text-white text-xs font-semibold tracking-widest select-none">
+                        WEB DEVELOPER
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div>
+        <p class="text-center text-gray-700 text-xs sm:text-sm mt-2max-w-12xl max-w-xl mx-auto leading-snug">
+            We create attractive and functional websites to enhance your business's online presence.We provide
+            Annastasya services to help you achieve your business goals.
+        </p>
+    </div>
+
+
+    <footer class="w-full border-t border-gray-200 mt-6">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:justify-between md:items-start py-8 space-y-8 md:space-y-0">
+                <div class="flex items-center space-x-2">
+                    <img alt="Company logo placeholder, black text on white background" class="w-6 h-6" height="24"
+                        src="assets/logoo.png" width="24" />
+                    <span class="font-semibold text-black text-sm md:text-base">
+                        ANNASTASYA
+                    </span>
+                </div>
+                <div class="grid grid-cols-2 sm:grid-cols-4 gap-8 md:gap-12 text-xs text-gray-500 font-normal">
+                    <div>
+                        <h3 class="mb-3 font-semibold text-gray-900 text-xs">
+                            Company
+                        </h3>
+                        <ul class="space-y-2">
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    About
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Talent on demand
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Work at Company
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Stock
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="mb-3 font-semibold text-gray-900 text-xs">
+                            Community
+                        </h3>
+                        <ul class="space-y-2">
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Product forums
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Security
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Contact us
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Sitemap
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    News
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="mb-3 font-semibold text-gray-900 text-xs">
+                            Getting started
+                        </h3>
+                        <ul class="space-y-2">
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Documentation
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Pricing
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    API
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Contact us
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3 class="mb-3 font-semibold text-gray-900 text-xs">
+                            Resources
+                        </h3>
+                        <ul class="space-y-2">
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    API
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Demo (additional product)
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Downloads
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Community
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Design (UI kit)
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hover:underline" href="#">
+                                    Developers
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div
+                class="border-t border-gray-200 pt-6 pb-4 flex flex-col md:flex-row md:justify-between md:items-center text-xs text-gray-400 font-normal space-y-4 md:space-y-0">
+                <p>
+                    © 2025 Annastasya, all rights reserved
+                </p>
+                <div class="flex space-x-6 md:space-x-8">
+                    <a aria-label="GitHub" class="hover:text-gray-600" href="alna23.github.io">
+                        <i class="fab fa-github fa-lg">
+                        </i>
+                    </a>
+                    <a aria-label="Facebook" class="hover:text-gray-600"
+                        href="https://www.facebook.com/profile.php?id=100078978855260">
+                        <i class="fab fa-facebook fa-lg">
+                        </i>
+                    </a>
+                    <a aria-label="Instagram" class="hover:text-gray-600"
+                        href="https://www.instagram.com/annaztash4nen_?igsh=a3ZiMWVkeHF1dnpm">
+                        <i class="fab fa-instagram fa-lg">
+                        </i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    </body>
+
+</html>
